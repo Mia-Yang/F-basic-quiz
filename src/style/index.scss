@@ -15,6 +15,10 @@
         border: none;
         border-top: solid 2px lighten($color: $gray-dark, $amount: 50%);
     }
+
+    p {
+        font-size: 15px;
+    }
 }
 
 .top-info {
@@ -29,13 +33,9 @@
         margin-top: -50px;
         margin-bottom: 10px;
     }
-  
-    h1 {
-        @include heading(2.5rem);
-    }
 
-    h2 {
-        @include heading(1.6rem);
+    h1, h2 {
+        margin-top: 0;
     }
 }
 
