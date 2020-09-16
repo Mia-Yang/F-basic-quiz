@@ -1,4 +1,4 @@
-const URL = "http://localhost:8080/users";
+const URL = "http://localhost:3000/users";
 
 const getUser = async (id) => {
   return fetch(`${URL}/${id}`, {
